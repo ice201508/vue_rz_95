@@ -52,20 +52,16 @@ module.exports = {
               },
               {
                 text: "老师上课码云地址",
-                link: "https://gitee.com/errlei/rz_92",
+                link: "https://gitee.com/errlei/rz_95",
               },
               {
                 text: "人资预览网站",
                 link: "https://heimahr.itheima.net/login",
                 // link: "http://ihrm.itheima.net/hrsaas/login",
               },
-              // {
-              //   text: "人资预览备用网站",
-              //   link: "https://heimahr-t.itheima.net/",
-              // },
               {
-                text: "检查大家每日收获网站",
-                link: "https://www.zhixi.com/share/305d8208",
+                text: "人资预览备用网站",
+                link: "https://heimahr-t.itheima.net/",
               },
               {
                 text: "element项目预览网站",
