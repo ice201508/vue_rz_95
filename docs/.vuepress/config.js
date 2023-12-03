@@ -38,7 +38,7 @@ module.exports = {
     nav: [
       { text: "vue基础", link: "/vue/" },
       { text: "人资笔记", link: "/rz/" },
-      // { text: "小程序", link: "/xcx/" },
+      { text: "小程序", link: "/xcx/" },
       // { text: "Vue3+TS", link: "/vue3ts/" },
       {
         text: "vue资源网站",
@@ -165,15 +165,6 @@ module.exports = {
     ],
     // sidebar: 'auto',
     collapsable: true,
-    // sidebar: {
-    //   '/rz/': [
-    //     '01',
-    //     '02',
-    //     '03',
-    //     '04',
-    //     '05',
-    //   ]
-    // }
     sidebar: {
       "/vue/": [
         {
@@ -314,79 +305,79 @@ module.exports = {
           children: ["10"],
         },
       ],
-      // "/xcx/": [
-      //   {
-      //     title: "1-小程序基础",
-      //     path: "/xcx/01", // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-      //     collapsable: true,
-      //     displayAllHeaders: true,
-      //     sidebarDepth: 2,
-      //     children: ["01"],
-      //   },
-      //   {
-      //     title: "2-小程序基础",
-      //     path: "/xcx/02",
-      //     collapsable: true,
-      //     sidebarDepth: 2,
-      //     children: ["02"],
-      //   },
-      //   {
-      //     title: "3-小程序基础",
-      //     path: "/xcx/03",
-      //     collapsable: true,
-      //     sidebarDepth: 2,
-      //     children: ["03"],
-      //   },
-      //   {
-      //     title: "4-享+本地生活",
-      //     path: "/xcx/04",
-      //     collapsable: true,
-      //     sidebarDepth: 2,
-      //     children: ["04"],
-      //   },
-      //   {
-      //     title: "5-享+本地生活",
-      //     path: "/xcx/05",
-      //     collapsable: true,
-      //     sidebarDepth: 2,
-      //     children: ["05"],
-      //   },
-      //   {
-      //     title: "6-享+本地生活",
-      //     path: "/xcx/06",
-      //     collapsable: true,
-      //     sidebarDepth: 2,
-      //     children: ["06"],
-      //   },
-      //   {
-      //     title: "7-享+本地生活",
-      //     path: "/xcx/07",
-      //     collapsable: true,
-      //     sidebarDepth: 2,
-      //     children: ["07"],
-      //   },
-      //   {
-      //     title: "8-uni-app项目",
-      //     path: "/xcx/08",
-      //     collapsable: true,
-      //     sidebarDepth: 2,
-      //     children: ["08"],
-      //   },
-      //   {
-      //     title: "9-uni-app项目",
-      //     path: "/xcx/09",
-      //     collapsable: true,
-      //     sidebarDepth: 2,
-      //     children: ["09"],
-      //   },
-      //   {
-      //     title: "10-uni-app项目",
-      //     path: "/xcx/10",
-      //     collapsable: true,
-      //     sidebarDepth: 2,
-      //     children: ["10"],
-      //   },
-      // ],
+      "/xcx/": [
+        {
+          title: "1-小程序基础",
+          path: "/xcx/01", // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+          collapsable: true,
+          displayAllHeaders: true,
+          sidebarDepth: 2,
+          children: ["01"],
+        },
+        {
+          title: "2-小程序基础",
+          path: "/xcx/02",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["02"],
+        },
+        {
+          title: "3-小程序基础",
+          path: "/xcx/03",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["03"],
+        },
+        {
+          title: "4-享+本地生活",
+          path: "/xcx/04",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["04"],
+        },
+        {
+          title: "5-享+本地生活",
+          path: "/xcx/05",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["05"],
+        },
+        {
+          title: "6-享+本地生活",
+          path: "/xcx/06",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["06"],
+        },
+        {
+          title: "7-享+本地生活",
+          path: "/xcx/07",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["07"],
+        },
+        {
+          title: "8-uni-app项目",
+          path: "/xcx/08",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["08"],
+        },
+        {
+          title: "9-uni-app项目",
+          path: "/xcx/09",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["09"],
+        },
+        {
+          title: "10-uni-app项目",
+          path: "/xcx/10",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["10"],
+        },
+      ],
       // "/vue3ts/": [
       //   {
       //     title: "01-Vue3入门",
