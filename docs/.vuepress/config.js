@@ -39,6 +39,7 @@ module.exports = {
       { text: "vue基础", link: "/vue/" },
       { text: "人资笔记", link: "/rz/" },
       { text: "小程序", link: "/xcx/" },
+      { text: "黑马智数", link: "/hmzs/" },
       // { text: "Vue3+TS", link: "/vue3ts/" },
       {
         text: "vue资源网站",
@@ -135,33 +136,53 @@ module.exports = {
       //     },
       //   ],
       // },
-      // {
-      //   text: "vue3周边网站",
-      //   items: [
-      //     { text: "Vue 3官网", link: "https://cn.vuejs.org/" },
-      //     { text: "Vite 脚手架官网", link: "https://cn.vitejs.dev/" },
-      //     { text: "Vue Router 4.x 路由", link: "https://router.vuejs.org/zh/" },
-      //     { text: "Vuex 4.x状态管理", link: "https://vuex.vuejs.org/zh/" },
-      //     { text: "pinia 新状态管理", link: "https://pinia.vuejs.org/zh/" },
-      //     {
-      //       text: "Element Plus UI库",
-      //       link: "https://element-plus.org/zh-CN/",
-      //     },
-      //     {
-      //       text: "Vant 4 H5 UI库",
-      //       link: "https://vant-contrib.gitee.io/vant/#/zh-CN",
-      //     },
-      //     {
-      //       text: "TS演练场",
-      //       link: "https://www.typescriptlang.org/zh/play",
-      //     },
-      //     {
-      //       text: "TS自学网站",
-      //       link: "https://ts.xcatliu.com/",
-      //     },
-      //   ],
-      // },
-      { text: "必会面试题", link: "/interview/" },
+      {
+        text: "vue3周边网站",
+        items: [
+          { text: "Vue 3官网", link: "https://cn.vuejs.org/" },
+          { text: "Vite 脚手架官网", link: "https://cn.vitejs.dev/" },
+          { text: "Vue Router 4.x 路由", link: "https://router.vuejs.org/zh/" },
+          { text: "Vuex 4.x状态管理", link: "https://vuex.vuejs.org/zh/" },
+          { text: "pinia 新状态管理", link: "https://pinia.vuejs.org/zh/" },
+          {
+            text: "Element Plus UI库",
+            link: "https://element-plus.org/zh-CN/",
+          },
+          {
+            text: "Vant 4 H5 UI库",
+            link: "https://vant-contrib.gitee.io/vant/#/zh-CN",
+          },
+          {
+            text: "TS演练场",
+            link: "https://www.typescriptlang.org/zh/play",
+          },
+          {
+            text: "TS自学网站",
+            link: "https://ts.xcatliu.com/",
+          },
+        ],
+      },
+      {
+        text: "智数周边",
+        items: [
+          { text: "智数预览网站", link: "https://fe-hmzs.itheima.net/login" },
+          {
+            text: "智数接口文档",
+            link: "https://apifox.com/apidoc/shared-056d7c04-303c-43cb-9b42-8e3d457844f5",
+          },
+          { text: "Vue 3官网", link: "https://cn.vuejs.org/" },
+          { text: "pinia 新状态管理", link: "https://pinia.vuejs.org/zh/" },
+          {
+            text: "Ant Design Vue",
+            link: "https://antdv.com/components/overview-cn",
+          },
+          {
+            text: "Element Plus UI库",
+            link: "https://element-plus.org/zh-CN/",
+          },
+        ],
+      },
+      // { text: "必会面试题", link: "/interview/" },
     ],
     // sidebar: 'auto',
     collapsable: true,
@@ -418,6 +439,79 @@ module.exports = {
       //     children: ["vue3"],
       //   },
       // ],
+      "/hmzs/": [
+        {
+          title: "01-项目前置课",
+          path: "/hmzs/01项目前置课", // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+          collapsable: true,
+          displayAllHeaders: true,
+          sidebarDepth: 2,
+          children: ["01项目前置课"],
+        },
+        {
+          title: "02-项目初始化",
+          path: "/hmzs/02项目初始化",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["02项目初始化"],
+        },
+        {
+          title: "03.登录功能和Token管理",
+          path: "/hmzs/03.登录功能和Token管理",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["03.登录功能和Token管理"],
+        },
+        {
+          title: "04.行车管理月卡管理",
+          path: "/hmzs/04.行车管理月卡管理",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["04.行车管理月卡管理"],
+        },
+        {
+          title: "05.园区管理企业管理",
+          path: "/hmzs/05.园区管理企业管理",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["05.园区管理企业管理"],
+        },
+        {
+          title: "06.行车管理计费规则管理",
+          path: "/hmzs/06.行车管理计费规则管理",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["06.行车管理计费规则管理"],
+        },
+        {
+          title: "07.系统管理角色管理",
+          path: "/hmzs/07.系统管理角色管理",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["07.系统管理角色管理"],
+        },
+        {
+          title: "08.前端权限控制菜单路由权限",
+          path: "/hmzs/08.前端权限控制菜单路由权限",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["08.前端权限控制菜单路由权限"],
+        },
+        {
+          title: "09.前端权限控制按钮权限",
+          path: "/hmzs/09.前端权限控制按钮权限",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["09.前端权限控制按钮权限"],
+        },
+        {
+          title: "10.项目业务说明梳理",
+          path: "/hmzs/10.项目业务说明梳理",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["10.项目业务说明梳理"],
+        },
+      ],
     },
   },
   markdown: {
