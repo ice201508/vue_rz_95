@@ -173,8 +173,8 @@ module.exports = {
           { text: "Vue 3官网", link: "https://cn.vuejs.org/" },
           { text: "pinia 新状态管理", link: "https://pinia.vuejs.org/zh/" },
           {
-            text: "Ant Design Vue",
-            link: "https://antdv.com/components/overview-cn",
+            text: "Ant Design Vue 3.x",
+            link: "https://3x.antdv.com/components/overview-cn",
           },
           {
             text: "Element Plus UI库",
@@ -454,6 +454,13 @@ module.exports = {
           collapsable: true,
           sidebarDepth: 2,
           children: ["02项目初始化"],
+        },
+        {
+          title: "02-新版重新整理笔记",
+          path: "/hmzs/self",
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ["self"],
         },
         {
           title: "03.登录功能和Token管理",
